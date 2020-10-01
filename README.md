@@ -16,7 +16,7 @@ console.log(iString('interpolation', 'cool', 'useful', 'extra'));
 //   Just to reiterate, interpolation is cool! (nothing  here)'
 ```
 
-As you can see from this example:
+As you can see from the example:
 * You can reuse the same index as many times as you want.
 * Indices are 1-based. `${0}` will always be substituted for an empty string.
 * Other indices that do not contain matching values will be substituted for empty strings.
