@@ -10,7 +10,7 @@ function interpolate(strings, ...positions) {
   return function $(...vals) {
     var output = '';
     for (let i = 0; i < positions.length; i ++) {
-      output += (strings[i] || '') + (vals[positions[i]-1] || '');
+      output += (strings[i] || '') + (vals[positions[i] - 1] || '');
     }
     output += strings[strings.length - 1];
     return output;
